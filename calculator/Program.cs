@@ -11,7 +11,7 @@ namespace ConsoleCalculator
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("Меню выбора:");
+                Console.WriteLine("Меню с выбором:");
                 Console.WriteLine("1. ввести число А");
                 Console.WriteLine("2. ввести число B");
                 Console.WriteLine("3. выполнить операцию '+'");
@@ -37,7 +37,7 @@ namespace ConsoleCalculator
                 }
             }
         }
-
+        //ввв
         static void InputA()
         {
             Console.Write("Введите значение A: ");
