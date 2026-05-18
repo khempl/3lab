@@ -41,7 +41,10 @@ namespace ConsoleCalculator
         static void InputA()
         {
             Console.Write("Введите значение A: ");
-            A = double.Parse(Console.ReadLine());
+            while (!double.TryParse(Console.ReadLine(), out A))
+            {
+                Console.Write("Ошибка! Введите число: ");
+            }
             Console.WriteLine("A сохранено. Нажмите любую клавишу...");
             Console.ReadKey();
         }
