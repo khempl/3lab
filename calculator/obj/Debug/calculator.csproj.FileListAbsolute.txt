@@ -1,0 +1,7 @@
+D:\tmp\3lab\calculator\bin\Debug\calculator.exe.config
+D:\tmp\3lab\calculator\bin\Debug\calculator.exe
+D:\tmp\3lab\calculator\bin\Debug\calculator.pdb
+D:\tmp\3lab\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+D:\tmp\3lab\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+D:\tmp\3lab\calculator\obj\Debug\calculator.exe
+D:\tmp\3lab\calculator\obj\Debug\calculator.pdb
