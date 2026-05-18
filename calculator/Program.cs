@@ -69,7 +69,8 @@ namespace ConsoleCalculator
 
         static void Subtract()
         {
-            Console.WriteLine($"A - B = {A - B}");
+            Console.WriteLine($"Результат: {A} - {B} = {A - B}");
+            Console.WriteLine("Нажмите любую клавишу...");
             Console.ReadKey();
         }
 
