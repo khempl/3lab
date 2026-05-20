@@ -30,7 +30,9 @@ namespace ConsoleCalculator
                     case "4": Subtract(); break;
                     case "5": Multiply(); break;
                     case "6": Divide(); break;
-                    case "7": return;
+                    case "7": Modulus(); break;
+                    case "8": Power(); break;
+                    case "9": return;
                     default:
                         Console.WriteLine("Неверный ввод. Нажмите любую клавишу...");
                         Console.ReadKey(); break;
@@ -87,6 +89,13 @@ namespace ConsoleCalculator
                 Console.WriteLine("Ошибка: деление на ноль невозможно!");
             else
                 Console.WriteLine($"Результат: {A} / {B} = {A / B}");
+            Console.WriteLine("Нажмите любую клавишу...");
+            Console.ReadKey();
+        }
+        static void Power()
+        {
+            double result = Math.Pow(A, B);
+            Console.WriteLine($"Результат: {A} ^ {B} = {result}");
             Console.WriteLine("Нажмите любую клавишу...");
             Console.ReadKey();
         }
