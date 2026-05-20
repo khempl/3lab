@@ -94,12 +94,21 @@ namespace ConsoleCalculator
             Console.WriteLine("Нажмите любую клавишу...");
             Console.ReadKey();
         }
+
         static void Modulus()
         {
             if (B == 0)
                 Console.WriteLine("Ошибка: остаток от деления на ноль не определён");
             else
                 Console.WriteLine($"Результат: {A} % {B} = {A % B}");
+            Console.WriteLine("Нажмите любую клавишу...");
+            Console.ReadKey();
+        }
+
+        static void Power()
+        {
+            double result = Math.Pow(A, B);
+            Console.WriteLine($"Результат: {A} ^ {B} = {result}");
             Console.WriteLine("Нажмите любую клавишу...");
             Console.ReadKey();
         }
